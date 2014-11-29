@@ -1,0 +1,15 @@
+[submodule "sources_non_forked/syntastic"]
+	path = sources_non_forked/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule "sources_non_forked/vim-addon-mw-utils"]
+	path = sources_non_forked/vim-addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-manager-known-repositories.git
+[submodule "sources_non_forked/ctrlp.vim"]
+	path = sources_non_forked/ctrlp.vim
+	url = git://github.com/kien/ctrlp.vim
+[submodule "sources_non_forked/scss-syntax.vim"]
+	path = sources_non_forked/scss-syntax.vim
+	url = git://github.com/cakebaker/scss-syntax.vim
+[submodule "sources_non_forked/vim-less"]
+	path = sources_non_forked/vim-less
+	url = git://github.com/groenewege/vim-less
