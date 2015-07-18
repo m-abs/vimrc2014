@@ -1,3 +1,10 @@
+# My vimrc
+
+I've been using [The Ultimate vimrc](https://github.com/amix/vimrc) for years, but I didn't used most of the plugins or settings that amix had included.
+However I liked the way he includes and loads the plugins, so I've finally made my fork of his setup, only with the modules I personally need.
+
+# From origin README.md:
+
 # The Ultimate vimrc
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.

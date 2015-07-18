@@ -13,3 +13,6 @@
 [submodule "sources_non_forked/vim-less"]
 	path = sources_non_forked/vim-less
 	url = git://github.com/groenewege/vim-less
+[submodule "sources_non_forked/editorconfig-vim"]
+	path = sources_non_forked/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
