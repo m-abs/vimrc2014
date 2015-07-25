@@ -26,3 +26,8 @@ colorscheme murphy
 set ffs=unix,dos
 
 set tabpagemax=100
+
+" map keys to tabs
+nmap <C-t> :tabnew<CR>
+imap <C-t> <ESC>:tabnew<CR>i
+map <C-t> :tabnew<CR>:E<CR>
