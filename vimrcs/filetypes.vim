@@ -32,7 +32,7 @@ au FileType javascript imap <c-a> alert();<esc>hi
 au FileType javascript inoremap <buffer> $ret return PH;<esc>FP2xi
 au FileType javascript inoremap <buffer> $f //--- PH ----------------------------------------------<esc>FP2xi
 
-function! JavaScriptFold() 
+function! JavaScriptFold()
     if has( "folding" )
         setl foldmethod=syntax
         setl foldlevelstart=3

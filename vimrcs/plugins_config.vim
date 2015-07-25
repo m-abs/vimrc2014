@@ -113,3 +113,16 @@ nnoremap <silent> <leader>z :Goyo<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
 let g:syntastic_javascript_checkers = ['jscs', 'jshint']
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_aggregate_errors = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => folding
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if has('folding')
+  inoremap <F9> <C-O>za
+  nnoremap <F9> za
+  onoremap <F9> <C-C>za
+  vnoremap <F9> zf
+endif
