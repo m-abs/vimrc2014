@@ -24,6 +24,7 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 colorscheme murphy
 
 set ffs=unix,dos
+set modeline
 
 set tabpagemax=100
 

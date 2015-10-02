@@ -118,7 +118,6 @@ iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -145,3 +144,17 @@ endfunc
 func! CurrentFileDir(cmd)
     return a:cmd . " " . expand("%:p:h") . "/"
 endfunc
+
+function! JscsFix()
+    "Save current cursor position"
+    let l:winview = winsaveview()
+    "Pipe the current buffer (%) through the jscs -x command"
+    % ! jscs -x
+    "Restore cursor position - this is needed as piping the file"
+    "through jscs jumps the cursor to the top"
+    call winrestview(l:winview)
+endfunction
+command JscsFix :call JscsFix()
+
+"Run the JscsFix command just before the buffer is written for *.js files"
+"autocmd BufWritePre *.js JscsFix
