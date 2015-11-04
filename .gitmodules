@@ -4,9 +4,6 @@
 [submodule "sources_non_forked/vim-addon-mw-utils"]
 	path = sources_non_forked/vim-addon-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-manager-known-repositories.git
-[submodule "sources_non_forked/ctrlp.vim"]
-	path = sources_non_forked/ctrlp.vim
-	url = git://github.com/kien/ctrlp.vim
 [submodule "sources_non_forked/scss-syntax.vim"]
 	path = sources_non_forked/scss-syntax.vim
 	url = git://github.com/cakebaker/scss-syntax.vim
@@ -31,3 +28,9 @@
 [submodule "sources_non_forked/html5.vim"]
 	path = sources_non_forked/html5.vim
 	url = git@github.com:othree/html5.vim.git
+[submodule "sources_non_forked/yankring.vim"]
+	path = sources_non_forked/yankring.vim
+	url = git@github.com:vim-scripts/YankRing.vim.git
+[submodule "sources_non_forked/nerdtree"]
+	path = sources_non_forked/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
