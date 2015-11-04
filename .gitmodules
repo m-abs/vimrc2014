@@ -28,3 +28,6 @@
 [submodule "sources_non_forked/es.next.syntax.vim"]
 	path = sources_non_forked/es.next.syntax.vim
 	url = git@github.com:othree/es.next.syntax.vim.git
+[submodule "sources_non_forked/html5.vim"]
+	path = sources_non_forked/html5.vim
+	url = git@github.com:othree/html5.vim.git
