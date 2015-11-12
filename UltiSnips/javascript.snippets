@@ -1,0 +1,38 @@
+snippet fun "function with dynamic docblock" b
+`!p
+# Currently Ultisnips does not support dynamic tabstops, so we cannot add
+# tabstops to the datatype for these param tags until that feature is added.
+def formatTag(argument):
+	return " * @param {{}} {0}".format(argument)
+
+tags = [formatTag(argument.strip()) for argument in t[2].split(',') if argument]
+
+if tags:
+	snip.rv = "/**{0} */".format("".join(tags))
+else:
+	snip.rv = ''
+`${1}: function(${2}) {
+	${0:${VISUAL}}
+},
+endsnippet
+
+snippet forof "for (const value of iteratable) {...} " b
+for (const ${0:value} of ${1:iterable}) {
+   ${2}
+}
+endsnippet
+
+snippet re "require" b
+const `!p
+def formatVariableName(path):
+	lastPart = path.split('/')[-1]
+	if lastPart == 'underscore':
+		return '_'
+	elif lastPart == 'jquery':
+		return '$'
+	else:
+		return re.sub(r'[_\-]', '', lastPart.title())
+
+snip.rv = formatVariableName(t[1])
+` = require('${1}');$0
+endsnippet

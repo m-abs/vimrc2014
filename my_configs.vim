@@ -1,3 +1,7 @@
+if has('nvim')
+  runtime! plugin/python_setup.vim
+endif
+
 colorscheme peachpuff
 
 set listchars=tab:·\ ,trail:·
@@ -20,6 +24,7 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType typescript setlocal completeopt-=menu
 
 colorscheme murphy
 
@@ -32,3 +37,11 @@ set tabpagemax=100
 nmap <C-t> :tabnew<CR>
 imap <C-t> <ESC>:tabnew<CR>i
 map <C-t> :tabnew<CR>:E<CR>
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
