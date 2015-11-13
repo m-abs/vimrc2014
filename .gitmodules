@@ -16,15 +16,6 @@
 [submodule "sources_non_forked/yajs.vim"]
 	path = sources_non_forked/yajs.vim
 	url = git@github.com:othree/yajs.vim.git
-[submodule "sources_non_forked/javascript-libraries-syntax.vim"]
-	path = sources_non_forked/javascript-libraries-syntax.vim
-	url = git@github.com:othree/javascript-libraries-syntax.vim.git
-[submodule "sources_non_forked/es.next.syntax.vim"]
-	path = sources_non_forked/es.next.syntax.vim
-	url = git@github.com:othree/es.next.syntax.vim.git
-[submodule "sources_non_forked/html5.vim"]
-	path = sources_non_forked/html5.vim
-	url = git@github.com:othree/html5.vim.git
 [submodule "sources_non_forked/yankring.vim"]
 	path = sources_non_forked/yankring.vim
 	url = git@github.com:vim-scripts/YankRing.vim.git
