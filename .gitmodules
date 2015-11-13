@@ -28,3 +28,6 @@
 [submodule "sources_non_forked/es.next.syntax.vim"]
 	path = sources_non_forked/es.next.syntax.vim
 	url = git@github.com:othree/es.next.syntax.vim.git
+[submodule "sources_non_forked/tern_for_vim"]
+	path = sources_non_forked/tern_for_vim
+	url = git@github.com:marijnh/tern_for_vim.git
