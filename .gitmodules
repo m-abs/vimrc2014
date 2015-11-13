@@ -1,12 +1,6 @@
-[submodule "sources_non_forked/syntastic"]
-	path = sources_non_forked/syntastic
-	url = git@github.com:scrooloose/syntastic.git
 [submodule "sources_non_forked/vim-addon-mw-utils"]
 	path = sources_non_forked/vim-addon-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-manager-known-repositories.git
-[submodule "sources_non_forked/ctrlp.vim"]
-	path = sources_non_forked/ctrlp.vim
-	url = git://github.com/kien/ctrlp.vim
 [submodule "sources_non_forked/scss-syntax.vim"]
 	path = sources_non_forked/scss-syntax.vim
 	url = git://github.com/cakebaker/scss-syntax.vim
@@ -22,12 +16,27 @@
 [submodule "sources_non_forked/yajs.vim"]
 	path = sources_non_forked/yajs.vim
 	url = git@github.com:othree/yajs.vim.git
-[submodule "sources_non_forked/javascript-libraries-syntax.vim"]
-	path = sources_non_forked/javascript-libraries-syntax.vim
-	url = git@github.com:othree/javascript-libraries-syntax.vim.git
-[submodule "sources_non_forked/es.next.syntax.vim"]
-	path = sources_non_forked/es.next.syntax.vim
-	url = git@github.com:othree/es.next.syntax.vim.git
 [submodule "sources_non_forked/tern_for_vim"]
 	path = sources_non_forked/tern_for_vim
 	url = git@github.com:marijnh/tern_for_vim.git
+[submodule "sources_non_forked/yankring.vim"]
+	path = sources_non_forked/yankring.vim
+	url = git@github.com:vim-scripts/YankRing.vim.git
+[submodule "sources_non_forked/nerdtree"]
+	path = sources_non_forked/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "sources_non_forked/tsuquyomi"]
+	path = sources_non_forked/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
+[submodule "sources_non_forked/typescript-vim"]
+	path = sources_non_forked/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "sources_non_forked/ultisnips"]
+	path = sources_non_forked/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
+[submodule "sources_non_forked/YouCompleteMe"]
+	path = sources_non_forked/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "sources_non_forked/vimproc.vim"]
+	path = sources_non_forked/vimproc.vim
+	url = git@github.com:Shougo/vimproc.vim.git
