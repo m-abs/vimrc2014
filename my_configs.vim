@@ -1,5 +1,6 @@
 if has('nvim')
   runtime! plugin/python_setup.vim
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 endif
 
 colorscheme peachpuff

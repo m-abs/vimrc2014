@@ -34,4 +34,6 @@ catch
 endtry
 EOF
 
+git submodule update --init --recursive
+
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
