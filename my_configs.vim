@@ -31,6 +31,7 @@ colorscheme murphy
 
 set ffs=unix,dos
 set modeline
+set tw=0
 
 set tabpagemax=100
 
