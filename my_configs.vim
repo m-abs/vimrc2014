@@ -49,3 +49,4 @@ let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 let g:UltiSnipsEditSplit="vertical"
 
 set mouse=
+autocmd FileType typescript :set makeprg=tsc
